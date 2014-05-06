@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_runtime_dependency 'rails', ['>= 3', '< 5']
-  s.add_dependency "grape", ['=0.4.1']
+  s.add_dependency "grape", ['=0.7.1']
   s.add_dependency "jwt"
   s.add_dependency "rack-jsonp"
 end
